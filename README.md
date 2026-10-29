@@ -135,7 +135,7 @@ Go 版本的依赖和构建方式请参考原项目。Windows 下推荐直接使
 ## 6 改编说明 <a name="attribution"></a>
 
 - 原项目：[cuit-edu-cn/ruijie-auto-login](https://github.com/cuit-edu-cn/ruijie-auto-login)
-- 本仓库：[hzhaohe38-lab/Autoconnect-cuitNet](https://github.com/hzhaohe38-lab/Autoconnect-cuitNet)
+- 本仓库：[hzhaohe38-lab/Autoconnect-38](https://github.com/hzhaohe38-lab/Autoconnect-38)（项目主仓库）
 - 改编人：**Helium**
 - 组织：**氢氦集团（Hydrogen Helium Group）**
 
