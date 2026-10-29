@@ -1,0 +1,73 @@
+name: Bug 报告
+description: 报告程序运行中的问题（请先搜索已有 Issue）
+title: "[Bug] "
+labels: ["bug"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！提交前请确认日志和截图中**不包含学号、密码、Cookie 等敏感信息**。
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 问题描述
+      description: 实际发生了什么？期望的结果是什么？
+      placeholder: 例如：连接校园网后脚本提示“没有获取到认证页地址”。
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      description: 请按顺序列出可以稳定复现问题的操作。
+      placeholder: |
+        1. 双击 ruijie.bat
+        2. 输入账号、密码，选择运营商
+        3. 观察控制台输出
+    validations:
+      required: true
+
+  - type: dropdown
+    id: network
+    attributes:
+      label: 运营商
+      options:
+        - 移动
+        - 联通
+        - 电信
+        - 校园网
+        - 其他 / 不确定
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: 操作系统
+      placeholder: Windows 11 23H2 / Ubuntu 22.04 / WSL2
+    validations:
+      required: true
+
+  - type: input
+    id: powershell
+    attributes:
+      label: PowerShell 版本（Windows 用户填写）
+      placeholder: 在 PowerShell 中执行 $PSVersionTable.PSVersion 查看
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 相关日志
+      description: 请粘贴脱敏后的 `ruijie.log` 片段或控制台输出。
+      render: text
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我已确认上述内容不含学号、密码、Cookie 等敏感信息
+          required: true
