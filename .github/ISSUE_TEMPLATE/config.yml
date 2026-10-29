@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 使用说明
+    url: https://github.com/hzhaohe38-lab/Autoconnect-38#3-快速开始-a-name-quick-start-a
+    about: 先阅读 README 的快速开始与配置说明，再提交 Issue。

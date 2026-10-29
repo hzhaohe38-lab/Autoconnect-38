@@ -13,7 +13,10 @@
   <a href="https://github.com/cuit-edu-cn/ruijie-auto-login">原项目</a> ·
   <a href="#quick-start">快速开始</a> ·
   <a href="#config">配置</a> ·
-  <a href="#attribution">改编说明</a>
+  <a href="#attribution">改编说明</a> ·
+  <a href="CONTRIBUTING.md">参与贡献</a> ·
+  <a href="docs/BRANCHING.md">分支模型</a> ·
+  <a href="CHANGELOG.md">更新日志</a>
 </p>
 
 ---
@@ -23,6 +26,14 @@
 校园网每次连接都要弹出网页登录认证。本项目可以在不打开网页的情况下自动完成锐捷 ePortal 认证，适合开机自启或后台常驻。
 
 本项目改编自 [cuit-edu-cn/ruijie-auto-login](https://github.com/cuit-edu-cn/ruijie-auto-login)。在原 Shell / Go 版本的基础上，增加了 Windows PowerShell 原生版本、首次运行交互式初始化、运营商适配和更清晰的日志。
+
+> **项目状态**：v1.0.0，已在 Windows 10/11 + PowerShell 5.1 环境验证。Linux / WSL 与 Go 版本沿用上游实现。
+
+### 运行效果
+
+<p align="center">
+  <img src="docs/screenshot.png" alt="PowerShell 运行效果" width="820">
+</p>
 
 <hr>
 
@@ -135,7 +146,7 @@ Go 版本的依赖和构建方式请参考原项目。Windows 下推荐直接使
 ## 6 改编说明 <a name="attribution"></a>
 
 - 原项目：[cuit-edu-cn/ruijie-auto-login](https://github.com/cuit-edu-cn/ruijie-auto-login)
-- 本仓库：[hzhaohe38-lab/Autoconnect-cuitNet](https://github.com/hzhaohe38-lab/Autoconnect-cuitNet)
+- 本仓库：[hzhaohe38-lab/Autoconnect-38](https://github.com/hzhaohe38-lab/Autoconnect-38)
 - 改编人：**Helium**
 - 组织：**氢氦集团（Hydrogen Helium Group）**
 
@@ -149,9 +160,28 @@ Go 版本的依赖和构建方式请参考原项目。Windows 下推荐直接使
 6. 改进日志输出，失败重试不再刷屏
 7. 新增配置模板，真实配置文件不再纳入 Git
 
-## 7 许可证
+## 7 参与贡献
 
-本项目沿用原项目的 [Apache License 2.0](LICENSE)。
+欢迎提交 Issue 和 Pull Request。开始之前请阅读：
+
+- [CONTRIBUTING.md](CONTRIBUTING.md)：分支命名、提交规范、自测要求；
+- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)：社区行为准则；
+- [docs/BRANCHING.md](docs/BRANCHING.md)：分支模型与冲突解决流程；
+- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)：认证流程与代码结构；
+- [CHANGELOG.md](CHANGELOG.md)：版本变更记录。
+
+提交代码前请确认没有把 `shell/ruijie.conf`、`*.log` 或含个人信息的截图加入 Git。
+
+## 8 社区互动
+
+- **Issue**：使用 [Bug 报告](https://github.com/hzhaohe38-lab/Autoconnect-38/issues/new?template=bug_report.yml) 或 [功能建议](https://github.com/hzhaohe38-lab/Autoconnect-38/issues/new?template=feature_request.yml) 模板，描述复现步骤并附上脱敏日志。
+- **Pull Request**：从 `main` 创建短期分支，完成修改后发起 PR，并在描述中关联对应 Issue。
+- **Star / Watch**：如果项目对你有帮助，欢迎 Star 和 Watch，获取版本更新通知。
+- **讨论**：欢迎分享不同校区、不同运营商下的认证页面差异，帮助项目适配更多环境。
+
+## 9 许可证
+
+本项目沿用原项目的 [Apache License 2.0](LICENSE)。你可以自由使用、修改和分发本项目，但需保留版权与许可声明；修改后的文件需注明变更。
 
 ---
 
