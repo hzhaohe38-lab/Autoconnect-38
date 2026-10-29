@@ -4,6 +4,10 @@
 
 ## [Unreleased]
 
+### 新增
+
+- 社区互动指南 `docs/COMMUNITY.md`：Star / Watch 指引、Issue 反馈模板与邀请同学试用说明。
+
 ## [1.0.0] - 2026-10-29
 
 ### 新增
