@@ -173,6 +173,7 @@ Go 版本的依赖和构建方式请参考原项目。Windows 下推荐直接使
 - **Pull Request**：从 `main` 创建短期分支，完成修改后发起 PR，并在描述中关联对应 Issue。
 - **Star / Watch**：如果项目对你有帮助，欢迎 Star 和 Watch，获取版本更新通知。
 - **讨论**：欢迎分享不同校区、不同运营商下的认证页面差异，帮助项目适配更多环境。
+- **互动指南**：Star / Watch、Issue 反馈模板与邀请同学的说明见 [docs/COMMUNITY.md](docs/COMMUNITY.md)。
 
 ## 9 许可证
 
