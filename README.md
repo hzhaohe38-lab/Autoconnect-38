@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="docs/logo.jpg" alt="氢氦集团 Hydrogen Helium Group" width="200">
-</p>
-
 <h1 align="center">Ruijie Auto Login</h1>
 
 <p align="center">
@@ -147,8 +143,7 @@ Go 版本的依赖和构建方式请参考原项目。Windows 下推荐直接使
 
 - 原项目：[cuit-edu-cn/ruijie-auto-login](https://github.com/cuit-edu-cn/ruijie-auto-login)
 - 本仓库：[hzhaohe38-lab/Autoconnect-38](https://github.com/hzhaohe38-lab/Autoconnect-38)（项目主仓库）
-- 改编人：**Helium**
-- 组织：**氢氦集团（Hydrogen Helium Group）**
+- 作者：**赵赫（38）**
 
 主要改动：
 
@@ -186,6 +181,5 @@ Go 版本的依赖和构建方式请参考原项目。Windows 下推荐直接使
 ---
 
 <p align="center">
-  <img src="docs/logo.jpg" alt="氢氦集团" width="120"><br>
-  <sub>Made with ❤️ by Helium · 氢氦集团</sub>
+  <sub>Made with ❤️ by 赵赫（38）</sub>
 </p>
