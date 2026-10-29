@@ -1,0 +1,21 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+go.mod
+go.sum
+**/.idea/
+
+GO/output/ruijie*.zip
+*.yaml
+
+# local credentials (never commit)
+ruijie.conf
+
+# runtime logs
+*.log

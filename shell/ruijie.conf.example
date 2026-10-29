@@ -1,0 +1,23 @@
+# Ruijie auto login configuration template.
+# The PowerShell script creates ruijie.conf from this file on first run,
+# asks for your account in the console, and writes it there.
+# ruijie.conf is ignored by git; never commit your real credentials.
+
+# user account (must specific)
+userId=
+# user password (must specific)
+password=
+# relogin time interval (seconds)
+timeInterval=3600
+
+# log save path (relative to this file)
+log_path=./ruijie.log
+# resave time interval (not work if <1)
+log_save_day=7
+# clear time interval (not work if <1)
+log_clear_day=0
+
+
+# network: 移动 / 联通 / 电信 / 校园网
+# (yd / lt / dx / edu are also accepted)
+network='校园网'
