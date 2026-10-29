@@ -19,3 +19,10 @@ ruijie.conf
 
 # runtime logs
 *.log
+
+# build artifacts and dependency cache (never commit)
+/pkg/
+auto_login/output/
+*.zip
+*.exe
+
